@@ -1,0 +1,13 @@
+@import "@fontsource/poppins";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply bg-black/5 text-[10px];
+}
+
+body {
+  @apply font-poppins text-[1.6rem];
+}
